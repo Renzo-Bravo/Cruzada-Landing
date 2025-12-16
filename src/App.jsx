@@ -2,12 +2,12 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Info from "./components/info/Info";
 import Speakers from "./components/speakers/Speakers";
-import Cronograma from "./components/cronograma/Cronograma";
+import Areas from "./components/areas/Areas";
+import Cronograma from "./components/calendar/Calendar";
 import Form from "./components/form/Form";
 import Footer from "./components/footer/Footer";
-import Areas from "./components/tematicas/Areas";
-import Empresas from "./components/empresas/Empresas";
-import Agradecimientos from "./components/agradecimientos/Agradecimientos";
+import Empresas from "./components/companie/Companie";
+import Agradecimientos from "./components/gratitude/Gratitude";
 import Report from "./components/report/Report";
 
 function App() {

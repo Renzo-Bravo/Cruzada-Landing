@@ -1,0 +1,30 @@
+.companie-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--fs-100);
+  color: var(--primary--clr);
+}
+
+.toggle-icon {
+  font-size: 28px;
+}
+
+.companie-content {
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.companie-card.open .companie-content {
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.companie-text {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}

@@ -1,4 +1,4 @@
-.heroSection {
+.hero-section {
   position: relative;
   color: white;
   display: flex;
@@ -7,14 +7,14 @@
   justify-content: center;
   text-align: center;
   min-height: 100vh;
-  padding-top: 15%;
+  padding-top: 20%;
   padding-bottom: 5%;
   padding-inline: 4%;
   font-size: 16px;
   z-index: 0;
 }
 
-.heroSection::before {
+.hero-section::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -24,7 +24,7 @@
   z-index: -2;
 }
 
-.heroSection::after {
+.hero-section::after {
   content: "";
   position: absolute;
   inset: 0;

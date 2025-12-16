@@ -1,16 +1,27 @@
-.agradecimientos {
+.calendar-section {
   width: 100%;
-  padding: 0 10px;
   background: white;
+  display: flex;
+  padding: 0 10px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
-  h2.titleAg {
-    font-size: var(--fs-400);
-    margin-bottom: 10px;
-  }
+.menuDesplegable {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: lightgray;
 }
 
 .menu-btn {
@@ -21,7 +32,6 @@
   border: none;
   cursor: pointer;
   text-align: left;
-  font-size: var(--fs-200);
   display: flex;
   align-items: center;
   justify-content: space-between;

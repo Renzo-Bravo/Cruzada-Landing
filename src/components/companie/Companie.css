@@ -1,0 +1,85 @@
+.companie-section {
+  position: relative;
+  width: 100%;
+  padding: 40px 10px;
+  text-align: center;
+  color: var(--text-clr);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companie-section::before,
+.companie-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.companie-section::before {
+  background-image: url("/src/assets/images/Foto1.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
+.companie-section::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.companie-title {
+  margin-bottom: 20px;
+}
+
+.companie-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+.companie-card {
+  width: 100%;
+  margin: 5% 0;
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+}
+
+.companie-card-title {
+  font-size: var(--fs-200);
+  color: var(--primary--clr);
+  font-weight: 600;
+}
+
+.companie-text {
+  color: var(--text-clr-o);
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.container-becas{
+  width: 100%;
+}
+
+.precio {
+  color: white;
+  background-color: var(--primary--clr);
+  width: 100%;
+  padding: 2% 0;
+  border: none;
+  border-radius: 10px;
+  font-size: var(--fs-100);
+}

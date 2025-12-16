@@ -1,48 +1,38 @@
-.ediciones-contacto {
+.contact-section {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
-.ediciones h3,
-.contacto h3 {
-  color: var(--primary--clr);
-  font-size: 1.25rem;
-  margin-bottom: 0.4rem;
-}
-
-.ediciones p {
-  margin: 0 0 0.4rem 0;
-  line-height: 1.4;
+.ediciones{
+  text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .ediciones span {
   font-weight: 600;
   display: block;
-  margin-bottom: 0.3rem;
+  margin: 0.5rem 0;
 }
 
 .ediciones a {
   display: block;
   color: blue;
   text-decoration: none;
-  margin-bottom: 0.2rem;
+  margin: 1rem 0;
 }
 
-.ediciones a:hover {
-  text-decoration: underline;
-}
-
-.contacto p {
-  margin-bottom: 0.7rem;
+.contacto{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-item {
-  display: flex;
-  align-items: center;
+  text-align: center;
   gap: 0.5rem;
   margin-bottom: 0.4rem;
 }
@@ -56,29 +46,3 @@
   text-decoration: underline;
 }
 
-@media (min-width: 600px) {
-  .ediciones-contacto {
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 90%;
-    padding-left: 4%;
-    gap: 40px;
-  }
-
-  .ediciones,
-  .contacto {
-    flex: 1;
-    min-width: 220px;
-  }
-
-  .ediciones h3,
-  .contacto h3 {
-    font-size: 1.35rem;
-  }
-
-  .ediciones p,
-  .contacto p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-}

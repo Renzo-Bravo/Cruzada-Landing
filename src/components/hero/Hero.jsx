@@ -2,7 +2,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <section className="heroSection" id="hero">
+    <section className="hero-section" id="hero">
       <div className="hero-content">
         <h2 className="hero-title">
           VII Jornadas Regionales de FEDIAP

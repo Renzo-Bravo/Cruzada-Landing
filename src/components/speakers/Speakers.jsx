@@ -19,7 +19,7 @@ export default function Speakers() {
 
   return (
     <section className="speakers-section" id="speakers">
-      <h2 className="speakers-title">Disertantes</h2>
+      <h2 className="title">Disertantes</h2>
 
       <div className="speakers-grid">
         {speakers.map((d, index) => (
