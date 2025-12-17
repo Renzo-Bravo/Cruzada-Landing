@@ -59,3 +59,29 @@
   border-bottom: 1px solid black;  ;
 }
 
+@media (min-width: 1024px) {
+  .speakers-section {
+    padding: 0px 50px;
+  }
+
+  .speakers-title {
+    font-size: var(--fs-400);
+  }
+
+  .speakers-card {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .foto-placeholder {
+    height: 250px;
+  }
+
+  .speakers-card h3 {
+    font-size: var(--fs-400);
+  }
+
+  .speakers-card p {
+    font-size: var(--fs-200);
+  }
+}

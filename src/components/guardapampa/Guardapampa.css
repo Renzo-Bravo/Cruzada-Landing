@@ -10,3 +10,11 @@
 .guardapampa-section .guardapampa-mediana{
     width: 100%;
 }
+@media (min-width: 1024px) {
+    .guardapampa-section .guardapampa-mediana{
+        display: none;
+    }
+    .guardapampa-section .guardapampa-entera{
+        display: block;
+    }
+}

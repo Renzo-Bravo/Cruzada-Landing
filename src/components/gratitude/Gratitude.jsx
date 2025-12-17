@@ -25,9 +25,41 @@ export default function Accordion() {
           {openSponsors && (
             <div className="menu-content">
               <ul>
-                <li>Sponsor 1</li>
-                <li>Sponsor 2</li>
-                <li>Sponsor 3</li>
+                <li>
+                  <img
+                    className="sponsorLogo"
+                    src="./src/assets/sponsors/sponsorLogo1.png"
+                    alt="Sponsor 1"
+                  />
+                </li>
+                <li>
+                  <img
+                    className="sponsorLogo"
+                    src="./src/assets/sponsors/sponsorLogo2.png"
+                    alt="Sponsor 2"
+                  />
+                </li>
+                <li>
+                  <img
+                    className="sponsorLogo"
+                    src="./src/assets/sponsors/sponsorLogo3.png"
+                    alt="Sponsor 3"
+                  />
+                </li>
+                <li>
+                  <img
+                    className="sponsorLogo"
+                    src="./src/assets/sponsors/sponsorLogo4.png"
+                    alt="Sponsor 4"
+                  />
+                </li>
+                <li>
+                  <img
+                    className="sponsorLogo"
+                    src="./src/assets/sponsors/Imagotipo Crecer vertical (verde institucional sobre fondo blanco).jpg"
+                    alt="Sponsor Logo 5"
+                  />
+                </li>
               </ul>
             </div>
           )}
@@ -57,7 +89,7 @@ export default function Accordion() {
             className="menu-btn"
             onClick={() => setOpenInstituciones(!openInstituciones)}
           >
-            Instotuciones Aliadas{" "}
+            Instituciones Aliadas{" "}
             {openInstituciones ? <IoIosArrowUp /> : <IoIosArrowDown />}{" "}
           </button>
 

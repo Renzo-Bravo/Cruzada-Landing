@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.menu-container{
+.menu-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -43,9 +43,31 @@
 
 .menu-content {
   padding: 15px;
+   transition: 
+    max-height 1s ease,
+    opacity 1s ease,
+    transform 1s ease;
 }
 
 .menu-content li {
   padding: 15px;
   display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  .menu-btn {
+    width: 10%;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+  }
+
+  .menuDesplegable {
+    width: 50%;
+  }
+  
 }

@@ -1,11 +1,13 @@
 .gratitude-section {
   width: 100%;
-  padding: 0 10px;
+  padding: 10px 10px;
   background: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(183, 49, 44, 0.37);
+  margin:2% 0 4%;
 }
 
 .menu-btn {
@@ -22,6 +24,17 @@
   justify-content: space-between;
 }
 
+.menuDesplegable{
+  background-color: white;
+}
+
+.sponsorLogo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
 .menu-content {
   padding: 15px;
 }
@@ -31,8 +44,73 @@
   display: inline-block;
 }
 
-@media (min-width:768px){
-  .menu-btn{
+@media (min-width: 768px) {
+  .menu-btn {
     font-size: var(--fs-400);
+  }
+
+  .gratitude-section{
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gratitude-section {
+    width: 100%;
+    background-color: rgba(183, 49, 44, 0.37);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+  .menu-container {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  .menuDesplegable {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .gratitude-section .title {
+    margin-bottom: 40px;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+  }
+
+  .menu-btn {
+    font-size: var(--fs-400);
+    padding: 18px 22px;
+  }
+
+  .menu-btn:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  .menu-content {
+    padding: 24px 32px;
+  }
+
+  .menu-content ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+    align-items: center;
+  }
+
+  .menu-content li {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsorLogo {
+    max-height: 200px;
   }
 }

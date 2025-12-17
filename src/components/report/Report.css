@@ -11,13 +11,29 @@
   align-items: center;
 }
 
+.textReport {
+  font-size: var(--fs-200);
+}
+
+.titleReport {
+  color: var(--primary--clr);
+}
+
+.envelope, .telephone{
+  color: var(--primary--clr);
+  width: 20px;
+  height: 20px;
+}
+
 .ediciones span {
+  font-size: var(--fs-200);
   font-weight: 600;
   display: block;
   margin: 0.5rem 0;
 }
 
 .ediciones a {
+  font-size: var(--fs-100);
   display: block;
   color: blue;
   text-decoration: none;
@@ -38,11 +54,62 @@
 }
 
 .contact-item a {
-  color: #333;
+  color: black;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+
 }
 
 .contact-item a:hover {
   text-decoration: underline;
 }
 
+@media (min-width: 1024px) {
+  .contact-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 90px;
+  }
+
+  .titleReport {
+    font-size: var(--fs-400);
+  }
+
+  .ediciones,
+  .contacto {
+    flex: 1;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .textReport{
+    font-size: var(--fs-300);
+  }
+
+  .ediciones span {
+    font-size: var(--fs-300);
+    margin: 0.8rem 0;
+  }
+
+  .ediciones a {
+    font-size: var(--fs-200);
+    margin: 0.6rem 0;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .contact-item a {
+    font-size: var(--fs-200);
+    font-weight: bold;
+  }
+}

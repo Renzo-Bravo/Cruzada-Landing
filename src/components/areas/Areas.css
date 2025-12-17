@@ -62,3 +62,10 @@
     font-size: var(--fs-500);
   }
 }
+
+@media (min-width: 1024px) {
+  .areas-container {
+    flex-direction: row;
+    gap: 40px;
+  }
+}

@@ -87,3 +87,34 @@
     width: 80%;
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    gap: 40px;
+  }
+
+  .companie-card {
+    width: 45%;
+    padding: 5px 10px ;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .container-becas {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .precio {
+    width: 80%;
+    font-size: var(--fs-400);
+    margin-bottom: 2%;
+  }
+}

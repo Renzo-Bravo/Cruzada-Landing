@@ -22,7 +22,6 @@
   gap: 40px;
   padding: 40px 20px;
   flex-wrap: wrap;
-  max-width: 1200px;
   background-color: black;
 }
 
@@ -87,8 +86,33 @@
   font-size: var(--fs-100);
   font-weight: bold;
   color: white;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid gray;
   background-color: black;
 }
 
+@media (min-width: 1024px) {
+  .footer-end {
+    width: 100%;
 
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-end {
+    padding: 40px 0;
+  }
+
+  .footer-end > .footer-column {
+    max-width: 1200px;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 240px;
+    padding: 0 20px;
+  }
+
+  .footer-description {
+    max-width: 320px;
+  }
+}

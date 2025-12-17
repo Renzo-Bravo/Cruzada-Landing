@@ -9,4 +9,8 @@
   width: 80vw;
 }
 
-
+@media (min-width: 1024px) {
+  .fediap{
+    width: 40vw;
+  }
+}

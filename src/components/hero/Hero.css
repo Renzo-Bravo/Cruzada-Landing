@@ -82,3 +82,13 @@
     font-size: var(--fs-300);
   }
 }
+
+@media (min-width: 1024px){
+  .hero-section{
+    padding-top: 10%;
+  }
+
+  .inscripcion-button{
+    padding: 10px;
+  }
+}
