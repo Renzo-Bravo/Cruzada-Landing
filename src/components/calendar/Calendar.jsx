@@ -1,11 +1,9 @@
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useEffect, useState } from "react";
 import "./Calendar.css";
 import Guardapampa from "../guardapampa/Guardapampa.jsx";
 
-export default function Accordion() {
+export default function CalendarList() {
   const [calendar, setCalendar] = useState([]);
-  const [openId, setOpenId] = useState(null);
 
   useEffect(() => {
     fetch("/data/calendar.json")
@@ -14,34 +12,32 @@ export default function Accordion() {
       .catch((err) => console.error("Error cargando cronograma:", err));
   }, []);
 
-  const toggleAccordion = (id) => {
-    setOpenId(openId === id ? null : id);
-  };
-
   return (
     <section className="calendar-section" id="calendar-id">
-      <h2 className="title">Cronograma de actividades</h2>
+      <div className="calendar-header">
+        <h2 className="title">Cronograma de actividades</h2>
+        <div className="title-underline"></div>
+      </div>
 
-      <div className="menu-container">
-        {calendar.map((item) => (
-          <div className="menuDesplegable" key={item.id}>
-            <button
-              className="menu-btn"
-              onClick={() => toggleAccordion(item.id)}
-            >
-              {item.fecha}
-              {openId === item.id ? <IoIosArrowUp /> : <IoIosArrowDown />}
-            </button>
-
-            {openId === item.id && (
-              <div className="menu-content">
-                <ul>
-                  {item.horarios.map((hora, index) => (
-                    <li key={index}>{hora}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
+      <div className="calendar-container">
+        {calendar.map((day) => (
+          <div className="day-card" key={day.id}>
+            <div className="day-title">
+              <h3>{day.fecha}</h3>
+            </div>
+            
+            <div className="events-list">
+              {day.eventos && day.eventos.map((evento, index) => (
+                <div className="event-row" key={index}>
+                  <div className="time-column">
+                    <span className="time-badge">{evento.hora}</span>
+                  </div>
+                  <div className="content-column">
+                    <p className="event-activity">{evento.actividad}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
