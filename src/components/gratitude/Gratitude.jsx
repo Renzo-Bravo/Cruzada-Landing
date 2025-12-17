@@ -19,7 +19,7 @@ export default function Accordion() {
             className="menu-btn"
             onClick={() => setOpenSponsors(!openSponsors)}
           >
-            Sponsors {openSponsors ? <IoIosArrowUp /> : <IoIosArrowDown />}
+            Sponsors Fuego {openSponsors ? <IoIosArrowUp /> : <IoIosArrowDown />}
           </button>
 
           {openSponsors && (
@@ -70,7 +70,7 @@ export default function Accordion() {
             className="menu-btn"
             onClick={() => setOpenAuspician(!openAuspician)}
           >
-            Auspician {openAuspician ? <IoIosArrowUp /> : <IoIosArrowDown />}
+            Sponsors Tierra {openAuspician ? <IoIosArrowUp /> : <IoIosArrowDown />}
           </button>
 
           {openAuspician && (
@@ -89,7 +89,7 @@ export default function Accordion() {
             className="menu-btn"
             onClick={() => setOpenInstituciones(!openInstituciones)}
           >
-            Instituciones Aliadas{" "}
+            Sponsors Agua{" "}
             {openInstituciones ? <IoIosArrowUp /> : <IoIosArrowDown />}{" "}
           </button>
 
