@@ -1,40 +1,76 @@
-.companie-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
+.glass-card {
+  width: 100%;
+  max-width: 550px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card-header {
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: var(--fs-100);
-  color: var(--primary--clr);
+  cursor: pointer;
+}
+
+.card-title {
+  margin: 0;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .toggle-icon {
-  font-size: 28px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-.companie-content {
+.card-content {
   overflow: hidden;
-  transition: max-height 600ms ease, opacity 400ms ease;
-  opacity: 0;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.companie-card.open .companie-content {
-  opacity: 1;
-  margin-top: 10px;
+.content-body {
+  padding: 0 25px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
-.companie-text {
-  color: var(--text-clr-o);
-  margin-bottom: 12px;
-  line-height: 1.4;
+.description-text {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@media (min-width:768px){
-  .companie-toggle{
-    font-size: var(--fs-400);
+.price-button {
+  background-color: var(--primary--clr);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.price-button:hover {
+  background-color: var(--primary--clr);
+}
+
+@media (min-width: 1024px) {
+  .glass-card {
+    max-width: 380px;
   }
-  .companie-text {
-  font-size: var(--fs-300);
-}
 }
