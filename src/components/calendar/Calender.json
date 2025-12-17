@@ -1,0 +1,48 @@
+{
+  "evento": "Jornadas Regionales Técnico Pedagógicas FEDIAP 2026",
+  "fechas": [
+    {
+      "dia": "Lunes 30 de marzo de 2026",
+      "actividades": [
+        { "inicio": "11:00", "fin": "12:30", "titulo": "Recepción de asistentes y acreditaciones" },
+        { "inicio": "12:30", "fin": "13:30", "titulo": "Almuerzo de bienvenida" },
+        { "inicio": "13:30", "fin": "14:00", "titulo": "Acto de apertura" },
+        {
+          "inicio": "14:00",
+          "fin": "15:00",
+          "titulo": "Conferencia inicial",
+          "descripcion": "La transición energética",
+          "disertante": "Gabriel Pagnossin"
+        },
+        {
+          "inicio": "15:00",
+          "fin": "17:00",
+          "titulo": "Actividades paralelas de co-formación – Parte 1"
+        },
+        { "inicio": "17:00", "fin": "17:30", "titulo": "Ronda de mate" },
+        { "inicio": "17:30", "fin": "18:30", "titulo": "Divulgación de tecnologías aplicadas" },
+        { "inicio": "18:30", "titulo": "Cierre de la jornada" }
+      ]
+    },
+    {
+      "dia": "Martes 31 de marzo de 2026",
+      "actividades": [
+        {
+          "inicio": "08:45",
+          "fin": "10:00",
+          "titulo": "Panel",
+          "descripcion": "Tecnologías aplicadas al mejoramiento de las viviendas rurales"
+        },
+        { "inicio": "10:00", "fin": "10:45", "titulo": "Disertación" },
+        { "inicio": "10:45", "fin": "11:00", "titulo": "Pausa" },
+        { "inicio": "11:00", "fin": "12:15", "titulo": "Presentación de experiencias" },
+        { "inicio": "12:15", "fin": "13:30", "titulo": "Almuerzo" },
+        { "inicio": "13:30", "fin": "14:45", "titulo": "Visita guiada" },
+        { "inicio": "14:45", "fin": "17:00", "titulo": "Actividades paralelas – Parte 2" },
+        { "inicio": "17:00", "fin": "17:30", "titulo": "Ronda de mate" },
+        { "inicio": "17:30", "fin": "18:30", "titulo": "Presentación de proyecto" },
+        { "inicio": "18:30", "titulo": "Cierre de la jornada" }
+      ]
+    }
+  ]
+}
