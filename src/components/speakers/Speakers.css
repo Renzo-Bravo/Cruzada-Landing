@@ -1,11 +1,11 @@
 .speakers-section {
   width: 100%;
-  padding: 0px 10px;
+  padding: 0 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
 
 .speakers-title {
   font-size: var(--fs-300);
@@ -15,32 +15,35 @@
 }
 
 .speakers-grid {
-  display: grid;
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 12px;
+  align-items: center;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  justify-items: center;
+  max-width: 1200px;
+  justify-content: space-around;
 }
 
 .speakers-card {
-  width: 90%;
+  width: 100%;
+  max-width: 300px;
   background: lightgrey;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 12px;
+  border-radius: 12px;
   text-align: center;
-  box-shadow: 0 0 8px rgba(0,0,0,0.20);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .foto-placeholder {
   width: 100%;
   height: 200px;
   background: white;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-bottom: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,37 +51,42 @@
 
 .foto-placeholder i {
   font-size: 40px;
-  color: var(--primary--clr); 
+  color: var(--primary--clr);
+}
+
+.speakers-card a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .speakers-card h3 {
-  padding-bottom: 2%;
   font-size: var(--fs-200);
-  margin-bottom: 5px;
-  width: 70%;
-  border-bottom: 1px solid black;  ;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  width: fit-content;
+  border-bottom: 1px solid black;
+}
+
+.speakers-card p {
+  font-size: var(--fs-100);
 }
 
 @media (min-width: 1024px) {
   .speakers-section {
-    padding: 0px 50px;
-  }
-
-  .speakers-title {
-    font-size: var(--fs-400);
-  }
-
-  .speakers-card {
-    width: 80%;
-    padding: 20px;
+    padding: 0 50px;
   }
 
   .foto-placeholder {
     height: 250px;
   }
 
+  .speakers-card {
+    padding: 20px;
+  }
+
   .speakers-card h3 {
-    font-size: var(--fs-400);
+    font-size: var(--fs-300);
   }
 
   .speakers-card p {

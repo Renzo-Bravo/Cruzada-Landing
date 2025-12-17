@@ -11,8 +11,8 @@ export default function Report() {
           Edición 2025 “Jornadas regionales de FEDIAP Inteligencia Artificial”
         </p>
         <span>Fuentes:</span>
-        <a href="#">LINK1</a>
-        <a href="#">LINK2</a>
+        <a href="https://infotecrealico.com.ar/contenido/75514/docentes-del-colegio-agropecuario-realico-presentaron-su-proyecto-en-las-jornada">LINK1</a>
+        <a href="https://alteredu.com.ar/cruzada-patagonica-la-escuela-agrotecnica-es-una-gran-fuente-de-recursos-didacticos-porque-trabaja-con-seres-vivos-y-variedad-de-materiales-para-la-produccion/">LINK2</a>
       </div>
 
       <div className="contacto">

@@ -4,7 +4,7 @@
   padding: 0 20px;
 }
 
-.ediciones{
+.ediciones {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,14 +12,15 @@
 }
 
 .textReport {
-  font-size: var(--fs-200);
+  font-size: 17px;
 }
 
 .titleReport {
   color: var(--primary--clr);
 }
 
-.envelope, .telephone{
+.envelope,
+.telephone {
   color: var(--primary--clr);
   width: 20px;
   height: 20px;
@@ -40,7 +41,7 @@
   margin: 1rem 0;
 }
 
-.contacto{
+.contacto {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -55,10 +56,11 @@
 
 .contact-item a {
   color: black;
+  font-weight: bold;
   text-decoration: none;
   display: flex;
   justify-content: center;
-
+  margin: 4px 0;
 }
 
 .contact-item a:hover {
@@ -87,7 +89,7 @@
     text-align: left;
   }
 
-  .textReport{
+  .textReport {
     font-size: var(--fs-300);
   }
 
@@ -106,6 +108,13 @@
     align-items: center;
     gap: 0.6rem;
     margin-bottom: 0.8rem;
+  }
+
+  .envelope,
+  .telephone {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
 
   .contact-item a {

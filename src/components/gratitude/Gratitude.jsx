@@ -28,36 +28,36 @@ export default function Accordion() {
                 <li>
                   <img
                     className="sponsorLogo"
-                    src="./src/assets/sponsors/sponsorLogo1.png"
-                    alt="Sponsor 1"
+                    src="./src/assets/sponsors/help-argentina.png"
+                    alt="Help Argentina logo"
                   />
                 </li>
                 <li>
                   <img
                     className="sponsorLogo"
-                    src="./src/assets/sponsors/sponsorLogo2.png"
-                    alt="Sponsor 2"
+                    src="./src/assets/sponsors/sociedad-rural.png"
+                    alt="Sociedad Rural logo"
                   />
                 </li>
                 <li>
                   <img
                     className="sponsorLogo"
-                    src="./src/assets/sponsors/sponsorLogo3.png"
-                    alt="Sponsor 3"
+                    src="./src/assets/sponsors/potenciar-solidario.png"
+                    alt="Potenciar Solidario logo"
                   />
                 </li>
                 <li>
                   <img
                     className="sponsorLogo"
-                    src="./src/assets/sponsors/sponsorLogo4.png"
-                    alt="Sponsor 4"
+                    src="./src/assets/sponsors/inta.png"
+                    alt="Inta logo"
                   />
                 </li>
                 <li>
                   <img
                     className="sponsorLogo"
                     src="./src/assets/sponsors/Imagotipo Crecer vertical (verde institucional sobre fondo blanco).jpg"
-                    alt="Sponsor Logo 5"
+                    alt="Crecer logo"
                   />
                 </li>
               </ul>

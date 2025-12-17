@@ -27,13 +27,18 @@ export default function Speakers() {
             <div className="foto-placeholder">
               <i className="fas fa-user-alt"></i>
             </div>
-
-            <h3>{d.nombre}</h3>
+            <a
+              href="http://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>{d.nombre}</h3>
+            </a>
             <p>{d.charla}</p>
           </div>
         ))}
       </div>
-        <Line />
+      <Line />
     </section>
   );
 }

@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <a href="#joinSection" className="inscripcion-button">
+        <a href="#form-id" className="inscripcion-button">
           Inscribite ahora
         </a>
       </div>

@@ -30,7 +30,7 @@
 
 .sponsorLogo {
   width: 100%;
-  max-width: 140px;
+  max-width: 150px;
   height: auto;
   object-fit: contain;
 }
@@ -111,6 +111,6 @@
   }
 
   .sponsorLogo {
-    max-height: 200px;
+    max-height: 500px;
   }
 }

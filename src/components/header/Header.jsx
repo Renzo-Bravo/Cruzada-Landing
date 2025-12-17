@@ -9,15 +9,11 @@ export default function Header() {
     <header className="header">
       <nav className="navbar">
         <div className="logo">
-          <img
-            src={CruzadaLogo}
-            alt="Cruzada Patagonica Logo"
-          />
+          <a href="https://cruzadapatagonica.org/" target="_blank" rel="noopener noreferrer">
+            <img src={CruzadaLogo} alt="Cruzada Patagonica Logo" />
+          </a>
         </div>
-        <label
-          className="label-hamburguesa"
-          htmlFor="menu-hamburguesa"
-        >
+        <label className="label-hamburguesa" htmlFor="menu-hamburguesa">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
