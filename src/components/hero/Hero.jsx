@@ -5,8 +5,8 @@ export default function Hero() {
     <section className="hero-section" id="hero">
       <div className="hero-content">
         <h2 className="hero-title">
-          VII Jornadas Regionales de FEDIAP
-        CoFormación Docente de Escuelas Agrotécnicas
+          VII Jornadas Regionales de FEDIAP CoFormación Docente de Escuelas
+          Agrotécnicas
         </h2>
 
         <h2 className="hero-subtitle">
@@ -21,7 +21,12 @@ export default function Hero() {
           </p>
         </div>
 
-        <a href="https://donaronline.org/fundacion-cruzada-patagonica/sumate-como-amigo-de-cruzada-patagonica" className="inscripcion-button">
+        <a
+          href="https://donaronline.org/fundacion-cruzada-patagonica/sumate-como-amigo-de-cruzada-patagonica"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inscripcion-button"
+        >
           Inscribite ahora
         </a>
       </div>

@@ -52,7 +52,8 @@ html {
   text-align: center;
   width: 90%;
   text-align: center;
-  color: blueviolet; /*test efectos en text (No es global al 100%)*/
+  color: #333;
+  /*color: blueviolet;*/ /*test efectos en text (No es global al 100%)*/
 }
 
 .title {
