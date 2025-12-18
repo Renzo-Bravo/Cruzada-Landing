@@ -115,7 +115,7 @@
 }
 
 .precio-btn:hover {
-  background-color: #b71c1c;
+  background-color: red;
   transform: scale(1.02);
 }
 
