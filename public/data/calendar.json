@@ -2,13 +2,25 @@
   "days": [
     {
       "id": "30-marzo",
-      "fecha": "30 - Marzo",
+      "fecha": "Lunes 30 - Marzo",
       "eventos": [
         { "hora": "11:00 - 12:30", "actividad": "Recepción de asistentes y acreditaciones" },
         { "hora": "12:30 - 13:30", "actividad": "Almuerzo de bienvenida" },
         { "hora": "13:30 - 14:00", "actividad": "Acto de apertura" },
-        { "hora": "14:00 - 15:00", "actividad": "Conferencia inicial: La transición energética. Gabriel Pagnossin, decano de la Facultad de Ingeniería. Universidad Patagonia Argentina." },
-        { "hora": "15:00 - 17:00", "actividad": "Actividades paralelas de co-formación: Encuentros técnicos, docentes y directivos" },
+        { 
+          "hora": "14:00 - 15:00", 
+          "actividad": "Conferencia inicial: 'La transición energética'",
+          "disertante": "Gabriel Pagnossin, decano de la Facultad de Ingeniería (UNPA)"
+        },
+        { 
+          "hora": "15:00 - 17:00", 
+          "actividad": "Actividades paralelas de co-formación",
+          "detalles": [
+            { "categoria": "Encuentros Técnicos (Postas) Parte 1", "items": ["Posta 1: BIODIGESTOR (Lucas Zanovello - INTA - IPAF)", "Posta 2: AEROCARGADOR (Nahuel Ancina - CEA - 500 rpm / Guilleromo Catuogno - UNSL)", "Posta 3: BOMBA SOLAR (Emamanuel Comin - EPET 21 - San Martin De Los Andes)", "Posta 4: BIOCONSTRUCCIÓN (Alejandro Domínguez - INTI)", "Posta 5: ESTUFA ALTO RENDIMIENTO (Luciano Mendoza - CFP 35 - Neuquén)"] },
+            { "categoria": "Encuentro Docente Parte 1", "items": ["'Intoducción a la programación con la aplicación Pilas' bloques (Mariano Ávalos - UTN - FRBA)", "Eficiencia energética (María Eugenia Bertossi - Cruzada Patagónica)"] },
+            { "categoria": "Encuentro de Equipos Directivos Parte 1", "items": ["Resolución de problemas comunes (Metodología CREA Escuelas)"] }
+          ]
+        },
         { "hora": "17:00 - 17:30", "actividad": "Ronda de mate" },
         { "hora": "17:30 - 18:30", "actividad": "Espacio para la divulgación de tecnologías aplicadas" },
         { "hora": "18:30", "actividad": "Cierre de la jornada" }
@@ -16,32 +28,58 @@
     },
     {
       "id": "31-marzo",
-      "fecha": "31 - Marzo",
+      "fecha": "Martes 31 - Marzo",
       "eventos": [
-        { "hora": "8:45 - 10:00", "actividad": "Panel: Tecnologías aplicadas al mejoramiento de las viviendas rurales" },
-        { "hora": "10:00 - 10:45", "actividad": "Disertación: Ciclo participativo de hábitat sustentable. Alejandro Domínguez, del Instituto Nacional de Tecnología Industrial (INTI)." },
+        { 
+          "hora": "8:45 - 10:00", 
+          "actividad": "Panel: Tecnologías aplicadas al mejoramiento de las viviendas rurales",
+          "detalles": [
+            { "categoria": "Discusión técnica", "items": ["Estufas de alto rendimiento (Emmanuel Comin - EPET 21)", "Aislamiento con lana (Lucas Zanovello y Santigo Martínez - IPAF-INTA, Plottier)", "Técnica 'quincha' (Alejandro Dominguez - INTI)"] }
+          ]
+        },
+        { "hora": "10:00 - 10:45", "actividad": "Disertación: Ciclo participativo de hábitat sustentable", "disertante": "Alejandro Domínguez (INTI)" },
         { "hora": "10:45 - 11:00", "actividad": "Pausa" },
-        { "hora": "11:00 - 12:15", "actividad": "Presentación de experiencias / Conversatorio paralelo: Estrategias y experiencias para la enseñanza de las tecnologías y la alfabetización digital con adultos. Mariano Ávalos, de la Universidad Tecnológica Nacional (UTN-FRBA)." },
-        { "hora": "12:15 - 13:30", "actividad": "Almuerzo" },
+        { 
+          "hora": "11:00 - 12:15", 
+          "actividad": "Presentación de experiencias y Conversatorio",
+          "detalles": [
+            { "categoria": "Experiencias", "items": ["'Gestión comunitaria de agua medidas por energía solar' (Gonzalo De Ezcurra - Subsecretaaria de Producción de la provincia de Neuquén)", "'Escuelas y tecnologías': Actividad del LabTA y EmpowerAr (Guillermo Catuogno - UNSL)", "Monitoreo a distancia (Pablo Corihuala - CET 8 Allen)"] },
+            { "categoria": "Actividad Paralela", "items": ["Conversatorio: Alfabetización digital con adultos (Mariano Ávalos - UTN - FRBA)"] }
+          ]
+        },
         { "hora": "13:30 - 14:45", "actividad": "Visita guiada a entornos didáctico productivos / Encuentro FEDIAP" },
-        { "hora": "14:45 - 17:00", "actividad": "Actividades paralelas de co-formación: Encuentros técnicos 2, docentes y directivos 2" },
+        { 
+          "hora": "14:45 - 17:00", 
+          "actividad": "Actividades paralelas de co-formación",
+          "detalles": [
+               { "categoria": "Encuentros Técnicos (Postas) Parte 2", "items": ["Posta 1: BIODIGESTOR (Lucas Zanovello - INTA - IPAF)", "Posta 2: AEROCARGADOR (Nahuel Ancina - CEA - 500 rpm / Guilleromo Catuogno - UNSL)", "Posta 3: BOMBA SOLAR (Emamanuel Comin - EPET 21 - San Martin De Los Andes)", "Posta 4: BIOCONSTRUCCIÓN (Alejandro Domínguez - INTI)", "Posta 5: ESTUFA ALTO RENDIMIENTO (Luciano Mendoza - CFP 35 - Neuquén)"] },
+            { "categoria": "Encuentro Docente Parte 2", "items": ["'Intoducción a la programación con la aplicación Pilas' bloques (Mariano Ávalos - UTN - FRBA)", "Eficiencia energética (María Eugenia Bertossi - Cruzada Patagónica)"] },
+            { "categoria": "Encuentro de Equipos Directivos Parte 2", "items": ["Mesa interinstitucional para construcción colectiva de la propuesta de Profesorado de Educación Secundaria en la Agronomía"] }
+          ]
+        },
         { "hora": "17:00 - 17:30", "actividad": "Ronda de mate" },
-        { "hora": "17:30 - 18:30", "actividad": "La escuela agrotécnica como espacio demostrativo: Frutillas del viento" },
+        { "hora": "17:30 - 18:30", "actividad": "Presentación del proyecto: 'Frutillas del viento', Fundación 500 rpm, INTA Esquel, CEA Valle de Cholila" },
         { "hora": "18:30", "actividad": "Cierre de la jornada" }
       ]
     },
     {
       "id": "01-abril",
-      "fecha": "01 - Abril",
+      "fecha": "Miércoles 01 - Abril",
       "eventos": [
-        { "hora": "8:45 - 10:00", "actividad": "Panel: La formación de técnicos agropecuarios" },
-        { "hora": "10:00 - 10:45", "actividad": "Charla: El pensamiento computacional y la programación" },
-        { "hora": "10:45 - 11:15", "actividad": "Trabajo en Grupo: conclusiones de las jornadas" },
-        { "hora": "11:15 - 12:00", "actividad": "Conferencia de cierre: El rol de la escuela agrotécnica en las transiciones hacia escenarios de energías renovables y tecnologías aplicadas. Agustina Sánchez Beck, de Observatorio de Coyuntura Internacional y Política Exterior (OCIPEX)" },
+        { 
+          "hora": "8:45 - 10:00", 
+          "actividad": "Panel: La formación de técnicos agropecuarios",
+          "detalles": [
+            { "categoria": "Exposiciones", "items": ["Proyectos de Egresados Diplomatura FAUBA/FEDIAP", "Patricia Guerrero: Del hacer al transformar"] }
+          ]
+        },
+        { "hora": "10:00 - 10:45", "actividad": "Charla: El pensamiento computacional y la programación", "disertante": "Mariano Ávalos (UTN-FRBA)" },
+        { "hora": "10:45 - 11:15", "actividad": "Trabajo en Grupo: Conclusiones de las jornadas" },
+        { "hora": "11:15 - 12:00", "actividad": "Conferencia de cierre: Rol de la escuela agrotécnica en transiciones energéticas", "disertante": "Agustina Sánchez Beck (OCIPEX)" },
         { "hora": "12:00 - 12:30", "actividad": "Panel de cierre: Aportes a la educación agrotécnica" },
         { "hora": "12:30 - 12:45", "actividad": "Acto de clausura" },
         { "hora": "12:45 - 14:00", "actividad": "Almuerzo de despedida" },
-        { "hora": "14:30 - 18:00", "actividad": "Salida a campo post jornadas (con inscripción previa)" }
+        { "hora": "14:30 - 18:00", "actividad": "Salida a campo: Instalación comunitaria de red de agua", "nota": "Actividad con inscripción previa" }
       ]
     }
   ]

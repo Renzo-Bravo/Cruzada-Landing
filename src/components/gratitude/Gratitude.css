@@ -69,14 +69,20 @@
   padding: 15px;
   background: white;
   border-radius: 8px;
+  height: 220px;
+}
+
+.logo-grid li:hover .sponsor-logo {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .sponsor-logo {
-  width: 100%;
-  min-width: 100px;
-  max-width: 120px;
-  height: auto;
-  object-fit: contain;
+  width: auto;         
+  height: auto;        
+  max-width: 100vh;     
+  max-height: 180px;    
+  object-fit: contain; 
   filter: grayscale(100%);
   opacity: 0.7;
   transition: all 0.3s ease;
@@ -93,8 +99,4 @@
     padding: 0px 20px;
   }
 
-  .logo-grid li:hover .sponsor-logo {
-    filter: grayscale(0%);
-    opacity: 1;
-  }
 }

@@ -15,10 +15,6 @@ export default function Accordion() {
       title: "Sponsors Agua",
       logos: [
         { src: "/src/assets/sponsors/inta.png", alt: "Inta" },
-        {
-          src: "/src/assets/sponsors/help-argentina.png",
-          alt: "Help Argentina",
-        },
       ],
     },
     {
