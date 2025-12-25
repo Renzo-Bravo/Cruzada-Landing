@@ -1,37 +1,37 @@
 [
   {
     "nombre": "Gabriel Zanellato",
-    "titulo_charla": "Disertante 1",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/GabrielZanellato.webp",
     "link": "https://www.linkedin.com/in/gabriel-zanellato-a8188489/"
   },
   {
     "nombre": "Mariano Ávalos",
-    "titulo_charla": "Estrategias y experiencias para la enseñanza de las tecnologías y alfabetización en adultos",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/Mariano Avalos.webp",
     "link": "https://www.linkedin.com/in/marianoavalos05/"
   },
   {
     "nombre": "Agustina Sánchez Beck",
-    "titulo_charla": "El rol de la escuela agrotécnica en la transición hacia escenarios renovables",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/AgustinaSanchez.webp",
     "link": "https://www.linkedin.com/in/agustina-s%C3%A1nchez-5a129915b/"
   },
   {
     "nombre": "Alejandro Dominguez",
-    "titulo_charla": "Ciclo participativo de habitat sustentable",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/AlejandroAnibalDominguez.webp",
     "link": "https://www.linkedin.com/in/alejandro-anibal-dominguez-3086338a/"
   },
   {
     "nombre": "Lucas Zanovello",
-    "titulo_charla": "Disertante 5",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/LucasZanovello.webp",
     "link": "https://www.linkedin.com/in/lucaszanovellodise%C3%B1o/"
   },
   {
     "nombre": "Luciana Proietti",
-    "titulo_charla": "Disertanet 6",
+    "titulo_charla": "",
     "imagen": "/data/pictureSpeak/Luciana Proietti.webp",
     "link": "https://www.linkedin.com/in/lu-proietti/"
   }

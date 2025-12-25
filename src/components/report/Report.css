@@ -107,7 +107,8 @@
 
   .text-report,
   .report-link,
-  .contact-methods {
+  .contact-methods,
+  .contact-item-link {
     font-size: var(--fs-200);
   }
 }

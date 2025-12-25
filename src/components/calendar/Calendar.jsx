@@ -12,7 +12,6 @@ export default function CalendarList() {
       .then((res) => res.json())
       .then((data) => {
         setCalendar(data.days);
-        if (data.days.length > 0) setOpenDay(data.days[0].id);
       })
       .catch((error) => console.error(error));
   }, []);

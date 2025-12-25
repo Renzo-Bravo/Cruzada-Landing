@@ -13,9 +13,9 @@ export default function CompanieCard({ title, text, price }) {
 
       <div
         className="card-content"
-        style={{ maxHeight: open ? "600px" : "0px" }}
+        style={{ height: open ? "350px" : "0px" }}
       >
-        <div className="content-body">
+        <div className="content-body" style={{ height: "350px"}}>
           <p className="description-text">{text}</p>
           <button className="price-button">{price}</button>
         </div>
